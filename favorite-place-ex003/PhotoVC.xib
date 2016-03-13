@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PhotoVC" customModule="favorite_place_ex003" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bRr-IX-3or">
+                    <rect key="frame" x="-7" y="0.0" width="607" height="611"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="fillEqually" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="2aK-Lp-a5Y">
+                            <rect key="frame" x="16" y="8" width="584" height="560"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="vDa-xv-8Eg">
+                                    <rect key="frame" x="174" y="0.0" width="236" height="180"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ride2" translatesAutoresizingMaskIntoConstraints="NO" id="R2R-3V-gj4">
+                                            <rect key="frame" x="0.0" y="0.0" width="236" height="180"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="126" id="6lS-vu-tiA"/>
+                                                <constraint firstAttribute="width" constant="236" id="sMy-tu-z02"/>
+                                            </constraints>
+                                        </imageView>
+                                    </subviews>
+                                    <variation key="widthClass=compact" misplaced="YES">
+                                        <rect key="frame" x="911" y="0.0" width="236" height="180"/>
+                                    </variation>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="whf-JQ-PbJ">
+                                    <rect key="frame" x="1" y="190" width="582" height="180"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="ride1" translatesAutoresizingMaskIntoConstraints="NO" id="s0b-OP-kaY">
+                                            <rect key="frame" x="0.0" y="15" width="286" height="150"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="286" id="2dt-3y-x9j"/>
+                                                <constraint firstAttribute="height" constant="150" id="EMS-J7-jRS"/>
+                                            </constraints>
+                                        </imageView>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="ride3" translatesAutoresizingMaskIntoConstraints="NO" id="dcW-Uu-5nA">
+                                            <rect key="frame" x="296" y="14" width="286" height="152"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="152" id="DwG-28-0WN"/>
+                                                <constraint firstAttribute="width" constant="286" id="xrc-MB-YOI"/>
+                                            </constraints>
+                                        </imageView>
+                                    </subviews>
+                                    <variation key="widthClass=compact" misplaced="YES">
+                                        <rect key="frame" x="738" y="190" width="582" height="180"/>
+                                    </variation>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="1di-RV-19w">
+                                    <rect key="frame" x="1" y="380" width="582" height="180"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="ride5" translatesAutoresizingMaskIntoConstraints="NO" id="Z6L-In-pK7">
+                                            <rect key="frame" x="0.0" y="14" width="286" height="152"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="152" id="XgX-GS-vso"/>
+                                                <constraint firstAttribute="width" constant="286" id="uf9-LR-SNd"/>
+                                            </constraints>
+                                            <variation key="widthClass=compact" misplaced="YES">
+                                                <rect key="frame" x="0.0" y="14" width="1024" height="152"/>
+                                            </variation>
+                                        </imageView>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="ride4" translatesAutoresizingMaskIntoConstraints="NO" id="AO3-rR-0C8">
+                                            <rect key="frame" x="296" y="13" width="286" height="154"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="288" id="HPi-9U-KPg"/>
+                                                <constraint firstAttribute="height" constant="154" id="bAd-21-Wyq"/>
+                                            </constraints>
+                                            <variation key="widthClass=compact" misplaced="YES">
+                                                <rect key="frame" x="1034" y="13" width="1024" height="154"/>
+                                            </variation>
+                                        </imageView>
+                                    </subviews>
+                                    <variation key="widthClass=compact" misplaced="YES">
+                                        <rect key="frame" x="0.0" y="380" width="2058" height="180"/>
+                                    </variation>
+                                </stackView>
+                            </subviews>
+                        </stackView>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W8h-z7-ge9">
+                            <rect key="frame" x="3" y="0.0" width="64" height="30"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBlack" family="Helvetica Neue" pointSize="15"/>
+                            <state key="normal" title="Back">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="loadPhotoView:" destination="-1" eventType="touchUpInside" id="qiX-eW-3k7"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="2aK-Lp-a5Y" secondAttribute="trailing" constant="8" id="ThR-9b-EbD"/>
+                        <constraint firstItem="2aK-Lp-a5Y" firstAttribute="top" secondItem="bRr-IX-3or" secondAttribute="top" constant="20" id="bYa-FL-Jvd"/>
+                        <constraint firstItem="2aK-Lp-a5Y" firstAttribute="leading" secondItem="bRr-IX-3or" secondAttribute="leading" constant="8" id="ce3-ey-BDz"/>
+                        <constraint firstAttribute="bottom" secondItem="2aK-Lp-a5Y" secondAttribute="bottom" constant="20" id="dIj-e5-3VI"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="bRr-IX-3or" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="BMp-po-1gU"/>
+                <constraint firstItem="bRr-IX-3or" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="FjM-cy-RPc"/>
+                <constraint firstAttribute="trailing" secondItem="bRr-IX-3or" secondAttribute="trailing" id="b5C-VB-d5L"/>
+                <constraint firstAttribute="bottom" secondItem="bRr-IX-3or" secondAttribute="bottom" id="lz5-DE-2bd"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="ride1" width="2850" height="2114"/>
+        <image name="ride2" width="640" height="853"/>
+        <image name="ride3" width="2560" height="1600"/>
+        <image name="ride4" width="1024" height="776"/>
+        <image name="ride5" width="640" height="427"/>
+    </resources>
+</document>
